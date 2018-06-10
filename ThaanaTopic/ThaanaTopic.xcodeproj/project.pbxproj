@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B69BD6120CD21090086081D /* thaana.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2B69BD6020CD21090086081D /* thaana.mlmodel */; };
+		2B90F32B20CAEEE500C85EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B90F32A20CAEEE500C85EF7 /* AppDelegate.swift */; };
+		2B90F32D20CAEEE500C85EF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B90F32C20CAEEE500C85EF7 /* ViewController.swift */; };
+		2B90F33020CAEEE500C85EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B90F32E20CAEEE500C85EF7 /* Main.storyboard */; };
+		2B90F33220CAEEE600C85EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B90F33120CAEEE600C85EF7 /* Assets.xcassets */; };
+		2B90F33520CAEEE600C85EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B90F33320CAEEE600C85EF7 /* LaunchScreen.storyboard */; };
+		2B90F34020CAEEE600C85EF7 /* ThaanaTopicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B90F33F20CAEEE600C85EF7 /* ThaanaTopicTests.swift */; };
+		2B90F34B20CAEEE600C85EF7 /* ThaanaTopicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B90F34A20CAEEE600C85EF7 /* ThaanaTopicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B90F33C20CAEEE600C85EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B90F31F20CAEEE500C85EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B90F32620CAEEE500C85EF7;
+			remoteInfo = ThaanaTopic;
+		};
+		2B90F34720CAEEE600C85EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B90F31F20CAEEE500C85EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B90F32620CAEEE500C85EF7;
+			remoteInfo = ThaanaTopic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B69BD6020CD21090086081D /* thaana.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = thaana.mlmodel; sourceTree = "<group>"; };
+		2B90F32720CAEEE500C85EF7 /* ThaanaTopic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThaanaTopic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B90F32A20CAEEE500C85EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B90F32C20CAEEE500C85EF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B90F32F20CAEEE500C85EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B90F33120CAEEE600C85EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B90F33420CAEEE600C85EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B90F33620CAEEE600C85EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B90F33B20CAEEE600C85EF7 /* ThaanaTopicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThaanaTopicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B90F33F20CAEEE600C85EF7 /* ThaanaTopicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThaanaTopicTests.swift; sourceTree = "<group>"; };
+		2B90F34120CAEEE600C85EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B90F34620CAEEE600C85EF7 /* ThaanaTopicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThaanaTopicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B90F34A20CAEEE600C85EF7 /* ThaanaTopicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThaanaTopicUITests.swift; sourceTree = "<group>"; };
+		2B90F34C20CAEEE600C85EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B90F32420CAEEE500C85EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B90F33820CAEEE600C85EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B90F34320CAEEE600C85EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B90F31E20CAEEE500C85EF7 = {
+			isa = PBXGroup;
+			children = (
+				2B69BD6020CD21090086081D /* thaana.mlmodel */,
+				2B90F32920CAEEE500C85EF7 /* ThaanaTopic */,
+				2B90F33E20CAEEE600C85EF7 /* ThaanaTopicTests */,
+				2B90F34920CAEEE600C85EF7 /* ThaanaTopicUITests */,
+				2B90F32820CAEEE500C85EF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B90F32820CAEEE500C85EF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B90F32720CAEEE500C85EF7 /* ThaanaTopic.app */,
+				2B90F33B20CAEEE600C85EF7 /* ThaanaTopicTests.xctest */,
+				2B90F34620CAEEE600C85EF7 /* ThaanaTopicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B90F32920CAEEE500C85EF7 /* ThaanaTopic */ = {
+			isa = PBXGroup;
+			children = (
+				2B90F32A20CAEEE500C85EF7 /* AppDelegate.swift */,
+				2B90F32C20CAEEE500C85EF7 /* ViewController.swift */,
+				2B90F32E20CAEEE500C85EF7 /* Main.storyboard */,
+				2B90F33120CAEEE600C85EF7 /* Assets.xcassets */,
+				2B90F33320CAEEE600C85EF7 /* LaunchScreen.storyboard */,
+				2B90F33620CAEEE600C85EF7 /* Info.plist */,
+			);
+			path = ThaanaTopic;
+			sourceTree = "<group>";
+		};
+		2B90F33E20CAEEE600C85EF7 /* ThaanaTopicTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B90F33F20CAEEE600C85EF7 /* ThaanaTopicTests.swift */,
+				2B90F34120CAEEE600C85EF7 /* Info.plist */,
+			);
+			path = ThaanaTopicTests;
+			sourceTree = "<group>";
+		};
+		2B90F34920CAEEE600C85EF7 /* ThaanaTopicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B90F34A20CAEEE600C85EF7 /* ThaanaTopicUITests.swift */,
+				2B90F34C20CAEEE600C85EF7 /* Info.plist */,
+			);
+			path = ThaanaTopicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B90F32620CAEEE500C85EF7 /* ThaanaTopic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B90F34F20CAEEE600C85EF7 /* Build configuration list for PBXNativeTarget "ThaanaTopic" */;
+			buildPhases = (
+				2B90F32320CAEEE500C85EF7 /* Sources */,
+				2B90F32420CAEEE500C85EF7 /* Frameworks */,
+				2B90F32520CAEEE500C85EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThaanaTopic;
+			productName = ThaanaTopic;
+			productReference = 2B90F32720CAEEE500C85EF7 /* ThaanaTopic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B90F33A20CAEEE600C85EF7 /* ThaanaTopicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B90F35220CAEEE600C85EF7 /* Build configuration list for PBXNativeTarget "ThaanaTopicTests" */;
+			buildPhases = (
+				2B90F33720CAEEE600C85EF7 /* Sources */,
+				2B90F33820CAEEE600C85EF7 /* Frameworks */,
+				2B90F33920CAEEE600C85EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B90F33D20CAEEE600C85EF7 /* PBXTargetDependency */,
+			);
+			name = ThaanaTopicTests;
+			productName = ThaanaTopicTests;
+			productReference = 2B90F33B20CAEEE600C85EF7 /* ThaanaTopicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B90F34520CAEEE600C85EF7 /* ThaanaTopicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B90F35520CAEEE600C85EF7 /* Build configuration list for PBXNativeTarget "ThaanaTopicUITests" */;
+			buildPhases = (
+				2B90F34220CAEEE600C85EF7 /* Sources */,
+				2B90F34320CAEEE600C85EF7 /* Frameworks */,
+				2B90F34420CAEEE600C85EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B90F34820CAEEE600C85EF7 /* PBXTargetDependency */,
+			);
+			name = ThaanaTopicUITests;
+			productName = ThaanaTopicUITests;
+			productReference = 2B90F34620CAEEE600C85EF7 /* ThaanaTopicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B90F31F20CAEEE500C85EF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Sofwathullah Mohamed";
+				TargetAttributes = {
+					2B90F32620CAEEE500C85EF7 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					2B90F33A20CAEEE600C85EF7 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2B90F32620CAEEE500C85EF7;
+					};
+					2B90F34520CAEEE600C85EF7 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2B90F32620CAEEE500C85EF7;
+					};
+				};
+			};
+			buildConfigurationList = 2B90F32220CAEEE500C85EF7 /* Build configuration list for PBXProject "ThaanaTopic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B90F31E20CAEEE500C85EF7;
+			productRefGroup = 2B90F32820CAEEE500C85EF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B90F32620CAEEE500C85EF7 /* ThaanaTopic */,
+				2B90F33A20CAEEE600C85EF7 /* ThaanaTopicTests */,
+				2B90F34520CAEEE600C85EF7 /* ThaanaTopicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B90F32520CAEEE500C85EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B90F33520CAEEE600C85EF7 /* LaunchScreen.storyboard in Resources */,
+				2B90F33220CAEEE600C85EF7 /* Assets.xcassets in Resources */,
+				2B90F33020CAEEE500C85EF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B90F33920CAEEE600C85EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B90F34420CAEEE600C85EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B90F32320CAEEE500C85EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B90F32D20CAEEE500C85EF7 /* ViewController.swift in Sources */,
+				2B69BD6120CD21090086081D /* thaana.mlmodel in Sources */,
+				2B90F32B20CAEEE500C85EF7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B90F33720CAEEE600C85EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B90F34020CAEEE600C85EF7 /* ThaanaTopicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B90F34220CAEEE600C85EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B90F34B20CAEEE600C85EF7 /* ThaanaTopicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B90F33D20CAEEE600C85EF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B90F32620CAEEE500C85EF7 /* ThaanaTopic */;
+			targetProxy = 2B90F33C20CAEEE600C85EF7 /* PBXContainerItemProxy */;
+		};
+		2B90F34820CAEEE600C85EF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B90F32620CAEEE500C85EF7 /* ThaanaTopic */;
+			targetProxy = 2B90F34720CAEEE600C85EF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B90F32E20CAEEE500C85EF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B90F32F20CAEEE500C85EF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B90F33320CAEEE600C85EF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B90F33420CAEEE600C85EF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B90F34D20CAEEE600C85EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B90F34E20CAEEE600C85EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B90F35020CAEEE600C85EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E33578GFU8;
+				INFOPLIST_FILE = ThaanaTopic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chops.ThaanaTopic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B90F35120CAEEE600C85EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E33578GFU8;
+				INFOPLIST_FILE = ThaanaTopic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chops.ThaanaTopic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B90F35320CAEEE600C85EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E33578GFU8;
+				INFOPLIST_FILE = ThaanaTopicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chops.ThaanaTopicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThaanaTopic.app/ThaanaTopic";
+			};
+			name = Debug;
+		};
+		2B90F35420CAEEE600C85EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E33578GFU8;
+				INFOPLIST_FILE = ThaanaTopicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chops.ThaanaTopicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThaanaTopic.app/ThaanaTopic";
+			};
+			name = Release;
+		};
+		2B90F35620CAEEE600C85EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E33578GFU8;
+				INFOPLIST_FILE = ThaanaTopicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chops.ThaanaTopicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThaanaTopic;
+			};
+			name = Debug;
+		};
+		2B90F35720CAEEE600C85EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E33578GFU8;
+				INFOPLIST_FILE = ThaanaTopicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chops.ThaanaTopicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThaanaTopic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B90F32220CAEEE500C85EF7 /* Build configuration list for PBXProject "ThaanaTopic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B90F34D20CAEEE600C85EF7 /* Debug */,
+				2B90F34E20CAEEE600C85EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B90F34F20CAEEE600C85EF7 /* Build configuration list for PBXNativeTarget "ThaanaTopic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B90F35020CAEEE600C85EF7 /* Debug */,
+				2B90F35120CAEEE600C85EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B90F35220CAEEE600C85EF7 /* Build configuration list for PBXNativeTarget "ThaanaTopicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B90F35320CAEEE600C85EF7 /* Debug */,
+				2B90F35420CAEEE600C85EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B90F35520CAEEE600C85EF7 /* Build configuration list for PBXNativeTarget "ThaanaTopicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B90F35620CAEEE600C85EF7 /* Debug */,
+				2B90F35720CAEEE600C85EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B90F31F20CAEEE500C85EF7 /* Project object */;
+}
